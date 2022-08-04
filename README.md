@@ -8,12 +8,12 @@ Topics include: web application development process, cross browser compatibility
 At the end of this course I was able to design and implement a database application with a commercial grade web
 interface for desktop and mobile computing platforms.
 
-#Projects: Done two phases.
-#Phase 1:
+## Projects: Done two phases.
+## Phase 1:
 
-##Smart Customer Services (SCS): This project will be developed iteratively through several iterations.
+## Smart Customer Services (SCS): This project will be developed iteratively through several iterations.
 
-##Design for Iteration-I:
+## Design for Iteration-I:
 
 In this iteration you will design, develop and test a “Smart Customer Services” (SCS) Web-Application. SCS is an online
 system that aims to plan for smart green trips inside the city and its neighborhood for online shopping and then delivery
@@ -51,40 +51,53 @@ id & password and a profile including personal information (name, tel no, mailin
 Notes- 1) Feel free to design the layout of the UIs at each page, 2) Test your application on FireFox and IE browsers.
 1
 
-##Design for Iteration-II:
+## Design for Iteration-II:
 
 In iteration-II you will enhance and extend your work on iteration-I to add a Database to your SCS WebApplication. You should design, develop, and test a Relational Database working in your application. Start your design by creating the following tables and then extend it to contain the other tables, records, and fields as required in your system:
 
 Order table:
 -Order-Id (unique key), Date issued, Date received, Total Price, Payment Code, User-Id, Trip-Id, Receipt-Id,…
+
 Item table:
 -Item_Id (unique key), Item_name, Price, Made_in, Department Code, …
+
 User table:
 -User-Id (unique key), Name, Tel no, Email, Address, City Code, Login-Id, Password, Balance, …
+
 Trip table:
 -Trip-Id (unique key), Source Code, Destination Code, Distance (km), Truck-Id, Price, …
+
 Truck table:
 -Truck-Id (unique key), Truck Code, Availability Code, …
+
 Shopping table:
 -Receipt-Id (unique key), Store Code, Total Price, …
+
 The following requirements will make your dynamic web-pages to work with multiple database tables and will
 make your solution to minimize the code duplication. Your database tables should be created at the server side of
 your network and should be accessed through MySql commands:
+
 1- Combine your code from It-1 with PHP scripts (using PHP classes as much as possible), extract the common
 headers into separate include files and include them in the PHP files.
+
 2- Create major tables with the above structures with proper name and type for each field; define proper
 connectivity among the tables. Also add more tables, records and fields if required. Since all web-pages might
 need to access all tables, you should generalize your database retrieval code through separate classes. Tables
 should be related preferably based on numeric codes (Ids).
+
 3- Each of the images and information shown through drop-down menus must be linked with appropriate query
 string.
+
 4- Use proper keys in tables (numeric Id is recommended) to facilitate storing, retrieving, sorting, filtering and
 manipulating of data in tables.
+
 5- Add another option at the top of the main page as “Search” which brings your system to search mode. By
 clicking on the “Search”, a search dialogue box will be displayed at the top right of the main page for the users to
 search for specific order (User-Id, Order-Id) if that order is done or not through the data base tables. The results
 of the search should be displayed at the bottom right of the main page.
+
 6- Add another option at the top of the main page as “db Maintain” which brings your system to database maintain
 mode. By clicking on the “db Maintain” a drop-down list will appear that indicates operations on the database
 including: “Insert”, “Delete”, “Select”, and “Update”. By clicking on each operation, a new page should appear
 with proper dialogue boxes to get required parameters. This option should be used only by the database administrator.
+
