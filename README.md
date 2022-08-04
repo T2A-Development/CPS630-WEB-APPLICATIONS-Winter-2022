@@ -8,7 +8,7 @@ Topics include: web application development process, cross browser compatibility
 At the end of this course I was able to design and implement a database application with a commercial grade web
 interface for desktop and mobile computing platforms.
 
-## Projects: Done two phases.
+## Projects: Done in two phases.
 ## Phase 1:
 
 ## Smart Customer Services (SCS): This project will be developed iteratively through several iterations.
@@ -100,4 +100,6 @@ of the search should be displayed at the bottom right of the main page.
 mode. By clicking on the “db Maintain” a drop-down list will appear that indicates operations on the database
 including: “Insert”, “Delete”, “Select”, and “Update”. By clicking on each operation, a new page should appear
 with proper dialogue boxes to get required parameters. This option should be used only by the database administrator.
+
+## Phase 2:
 
